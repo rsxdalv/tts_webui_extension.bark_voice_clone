@@ -1,0 +1,1 @@
+# Bark Voice Clone extension
