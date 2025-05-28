@@ -276,7 +276,6 @@ def extension__tts_generation_webui():
     return {
         "package_name": "extension_bark_voice_clone",
         "name": "Bark Voice Clone",
-        "version": "0.0.1",
         "requirements": "git+https://github.com/rsxdalv/extension_bark_voice_clone@main",
         "description": "Bark Voice Clone allows cloning voices for use with Bark TTS",
         "extension_type": "interface",
