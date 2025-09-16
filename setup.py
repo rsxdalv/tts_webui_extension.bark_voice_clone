@@ -1,12 +1,12 @@
 import setuptools
 
 setuptools.setup(
-    name="extension_bark_voice_clone",
+    name="tts_webui_extension.bark_voice_clone",
     packages=setuptools.find_namespace_packages(),
     version="0.0.1",
     author="rsxdalv",
     description="Bark Voice Clone allows cloning voices for use with Bark TTS",
-    url="https://github.com/rsxdalv/extension_bark_voice_clone",
+    url="https://github.com/rsxdalv/tts_webui_extension.bark_voice_clone",
     project_urls={},
     scripts=[],
     install_requires=[
@@ -18,3 +18,4 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
+
