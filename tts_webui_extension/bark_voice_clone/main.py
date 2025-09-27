@@ -10,10 +10,10 @@ from encodec.model import EncodecModel
 from tts_webui.utils.date import get_date_string
 
 try:
-    from extension_bark.history_to_hash import history_to_hash
-    from extension_bark.npz_tools import save_npz
-    from extension_bark.FullGeneration import FullGeneration
-    from extension_bark.get_audio_from_npz import get_audio_from_full_generation
+    from tts_webui_extension.bark.history_to_hash import history_to_hash
+    from tts_webui_extension.bark.npz_tools import save_npz
+    from tts_webui_extension.bark.FullGeneration import FullGeneration
+    from tts_webui_extension.bark.get_audio_from_npz import get_audio_from_full_generation
 except ImportError:
     raise ImportError(
         "Please install the extension_bark extension to use this extension"
