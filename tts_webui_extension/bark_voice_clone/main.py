@@ -16,7 +16,7 @@ try:
     from tts_webui_extension.bark.get_audio_from_npz import get_audio_from_full_generation
 except ImportError:
     raise ImportError(
-        "Please install the extension_bark extension to use this extension"
+        "Please install the tts_webui_extension.bark extension to use this extension"
     )
 
 from typing import TYPE_CHECKING
